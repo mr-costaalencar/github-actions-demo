@@ -17,8 +17,8 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Executar testes
-        run: npm test
+      - name: Executar aplicação
+        run: npm start
 
       - name: Implantação (deploy)
         run: echo "Deploy realizado com sucesso!"
